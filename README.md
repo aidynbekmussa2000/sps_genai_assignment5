@@ -15,3 +15,7 @@
    docker run -p 8000:80 sps-genai
 
 5. Open http://127.0.0.1:8000/docs and use POST /answer_with_llm
+
+6. If Docker is not available, you can run the API directly with
+uv run fastapi dev app/main.py
+
