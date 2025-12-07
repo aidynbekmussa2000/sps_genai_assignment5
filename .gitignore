@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+
+# Virtual environments and dependencies
+.venv/
+venv/
+env/
+
+# Model artifacts and large assets
+models/
+*.pt
+*.bin
+*.ckpt
+*.pth
+
+# Training outputs
+runs/
+outputs/
+checkpoints/
